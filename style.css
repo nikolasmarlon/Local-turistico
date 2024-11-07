@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: "Open Sans", serif;
+}
+
+.title-h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.title-h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.title-h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.headline{
+    font-size: 16px;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 16px;
+    font-weight: regular;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-style: italic;
+}
