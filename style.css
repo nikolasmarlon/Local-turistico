@@ -37,7 +37,7 @@
 }
 
 body{
-    padding: 88px 80px 48px;
+    padding-top: 88px;
 }
 
 main{
@@ -50,3 +50,66 @@ img{
     max-width: 1120px;
     height: auto;
 }
+#hero figure img{
+    border-radius: 28px;
+    height: 660px;
+    margin-top: 44px;
+}
+#hero figure figcaption{
+    text-align: center;
+    margin-top: 24px;
+}
+
+#hero h1{
+    margin-top: 8px;
+}
+
+main hr{
+    border: none;
+    border-top: 1px solid #D9D9D9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#text-post div{
+    
+
+    img{
+        height: 350px;
+        border-radius: 28px;
+        margin-top: 44px;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        margin-left: 23px;
+    }
+
+    ul .blue-500 {
+        color: #0C51A7;
+    }
+    ul .orange-500 {
+        color: #E95E10;
+    }
+    ul .pink-500 {
+        color: #E5245E;
+    }
+    ul .purple-500 {
+        color: #591B98;
+    }
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 5px;
+}
+
+footer img{
+    width: 16px;
+}
+
